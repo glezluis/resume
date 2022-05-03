@@ -1,0 +1,147 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+
+\usepackage{shading}
+\usepackage{supertabular}
+\usepackage{bbding,pifont,graphicx} 
+\usepackage[colorlinks]{hyperref}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{ \Large  \vspace{-27pt}\parashade[.9]{sharpcorners}{\textbf{\color{blue}#1 \vphantom{p\^{E}}}} \vspace{-28pt}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-10pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\LARGE Luis Manuel Gonzalez}  & (714) 675-4372\\
+10862 Date Street &  luismg@csu.fullerton.edu \\
+Stanton CA, 90680 \hspace{120pt} & \textbf{\tiny click here}\scalebox{1.5}{\raisebox{-0.6ex}{\ding{43}}}\href{https://github.com/glezluis}{github.com/glezluis}
+\end{tabular*}
+
+\noindent \hrulefill
+
+\vspace{5pt}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{California State University Fullerton }{Fullerton, CA}{B.S. Computer Science } {August 2016 - December 2018} 
+	\begin{itemize}
+		\resitem{Graduated with an accumulated  g.p.a. of 3.29 }
+		\resitem{Concentration in scientific computing and minor in Mathematics}
+
+	\end{itemize}
+\end{itemize}
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+C/C++, python, OCaml, \LaTeX, Matlab, x86/Arm asm., django, React, HTML, CSS, SQL
+\item[Workflow:]
+vim/sublime , bash/zshell, gdb, grep/regular expressions, ssh, scp/sftp, git/version control
+\item[Other computer skills:]
+Linux (Debian and Redhat based), remote web servers (setting up, securing and maintaining), repair and maintain hardware
+\item[Miscellaneous:]
+fluent in Spanish,  excellent troubleshooting and debugging skills, exceptional problem solving skills, good teams skills
+\end{description}
+
+\resheading{Work Experience}
+
+\begin{itemize}
+\item
+	\ressubheading{Amazon Air}{Moreno Valley, Ca}{FC Associate}{November 2021 - Present}
+	\begin{itemize}
+		\resitem{Amazon Air associate responsible for unloading/loading packages into containers for aircraft}
+ 		\resitem{critical roles trained for include waterspider, splitter, and hydraulic box dumper}
+	\end{itemize}
+
+\end{itemize}
+
+\begin{itemize}
+\item
+	\ressubheading{\boldmath$SQA^2$}{Los Alamitos, Ca}{Junior QA Analyst}{January 2019 - August 2019}
+	\begin{itemize}
+		\resitem{Automate test for quality assurance for software for various companies}
+ 		\resitem{responsible for planning, execution scheduling and reporting test. Included black, gray, and white-box test}
+	\end{itemize}
+
+\end{itemize}
+
+
+\begin{itemize}
+\item
+	\ressubheading{Fullerton College}{Fullerton, CA}{Supplement Instruction Leader}{August 2015 - December 2018}
+	\begin{itemize}
+		\resitem{Embedded tutor assigned to various Calculus classes, responsibilities included preparing and delivering an extra hour of instruction for students and assisting students during class}
+		\resitem{Supplemental instruction is entirely voluntary for students to attend and I was able to get 60 - 75\% of the students to attend, while the average being 35\%.}
+	\end{itemize}
+
+\end{itemize}
+
+
+
+\resheading{Projects}
+\begin{itemize}
+\item
+	\ressubheading{\scalebox{1.5}{\raisebox{-0.6ex}{\ding{43}}} \href{https://github.com/glezluis/cachetravel}{cacheanaheim.com}}{}{Website for Cache Travel Anaheim}{}
+	\begin{itemize}
+		\resitem{Website allows travel agents to post specials/packages on-line by themselves}
+		\resitem{Built with django web framework,postgresql, and css grid for styling}
+		\resitem{Deployed on remote fedora 28 server using nginx and gunicorn , secured with SSL certificate}
+	\end{itemize}
+\item
+	\ressubheading{\href{https://github.com/glezluis/grimms-conjecture}{Grimm's Conjecture}}{}{Python script that analyzes Grimm's Conjecture}{}
+	\begin{itemize}
+		\resitem{Computational Analysis of mathematical conjecture that has not been proven}
+		\resitem{Algorithm has $O(n^2)$ complexity, the most efficient algorithm found on-line}
+	\end{itemize}
+
+% \item
+% 	\ressubheading{\href{https://github.com/glezluis/OCaml-assembly-generator}{OCaml assembly code generator}}{}{CPSC 323 Compilers - functional language project}{}
+% 	\begin{itemize}
+% 		\resitem{OCaml program generates pseudo assembly language from a C source code}
+% 		\resitem{Program is written entirely in a functional style avoiding all assignments}
+% 	\end{itemize}
+
+% \item
+% 	\ressubheading{\href{https://github.com/glezluis/nonlinear-finite-difference}{Finite difference method for nonlinear differential equations}}{}{Matlab script that solves nonlinear differential equations using Newton's iterative method}{}
+% 	\begin{itemize}
+% 		\resitem{Algorithm is generalized to solve any equations $f(x,y,y')$ given an interval $[a,b]$, $\Delta x = h$, and bounds $f(a) = \alpha$, $f(b) = \beta$}. Previous implementations were hard coded for single equation
+		
+% 	\end{itemize}
+
+\end{itemize}
+
+\rightline{\textbf{\small made with \href{https://www.latex-project.org/}{\LaTeX}}}
+\end{document}

@@ -1,0 +1,15 @@
+# Fdb version 3
+["latex"] 1651416285 "resume.tex" "resume.dvi" "resume" 1651416285
+  "/home/luis/.texlive2021/texmf-var/web2c/pdftex/latex.fmt" 1650101034 1344989 8b951596138ac0999cfcfced38a7637a ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1642003679 20145 aad8c3dd3bc36e260347b84002182bc2 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo" 1642003679 8465 2dd6985139dc15bc64ec71e501e76e40 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1642002331 40136 b05acc85e8425979e52682d98a2bcacf ""
+  "bbding.sty" 0 -1 0 ""
+  "resume.aux" 1634485844 48 9cf1fe235cbf6c346b93ed4f6f5e10a3 ""
+  "resume.tex" 1651416068 5318 c1a1ddf32e41682ee3cfe89e9d5366c7 ""
+  "shading.sty" 1634438117 9082 f77ac2d28014bb1eb5b4545838cf5a35 ""
+  "supertabular.sty" 1650101191 23209 eac569656690fd127265b9681865a582 ""
+  (generated)
+  "resume.dvi"
+  "resume.log"
